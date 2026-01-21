@@ -12,6 +12,6 @@ Trentatretrentini entrarono a Trento trotterellando.
 # quelli che restano li stampo uno per riga
 # e infine con wc conto le righe
 
-COUNT=$( echo -e ${RIGHE} | tr -cd  'c' | wc -c )
+COUNT=$( echo -e ${RIGHE} | tr -cd 'c' | wc -c )
 echo "trovati $COUNT caratteri c"
 
